@@ -26,16 +26,16 @@ class BurgerBuilder extends Component {
       error: false,
    };
 
-   componentDidMount() {
-      console.log(this.props);
-      axios.get('https://react-ms-burger-builder.firebaseio.com/Ingredients.json')
-         .then(response => {
-            this.setState({ingredients: response.data});
-         })
-         .catch(error => {
-            this.setState({error: true});
-         });
-   }
+   // componentDidMount() {
+   //    console.log(this.props);
+   //    axios.get('https://react-ms-burger-builder.firebaseio.com/Ingredients.json')
+   //       .then(response => {
+   //          this.setState({ingredients: response.data});
+   //       })
+   //       .catch(error => {
+   //          this.setState({error: true});
+   //       });
+   // }
 
    updatePurchaseableState = (ingredients) => {
       const sum = Object.keys(ingredients)
