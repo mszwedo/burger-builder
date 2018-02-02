@@ -10,3 +10,5 @@ A
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 >
 how-to-use.txt,9\0\90b3425b09e8eea2acb19dd34d3797425fd0eee6
+4
+.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
